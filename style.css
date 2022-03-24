@@ -45,13 +45,25 @@ background-color:rgb(41, 65,171);
   flex-direction: row;
   
 }
-#navbar li {
+#navbar ul {
   display:flex;
   flex-direction: row;
   align-items: flex-end;
 }
 
-
+.right {
+  display:flex;
+  flex-direction: row;
+  display: inline-block;
+  padding: 14px;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: bolder;
+}
+.right:hover {
+  color:#1ed760
+}
 /* #navbar li a {
   display: flex;
   color: white;
@@ -104,18 +116,23 @@ button {
   align-items: center;
   padding: 60px;
 }
-footer {
+ footer {
   position: fixed;
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
   left: 0;
   bottom: 0;
   width: 100%;
-  height:150px;
+  height:100px;
   background-color: black;
   color: white;
-  text-align: center;
-}
+   text-align: center; 
+} */
 .spotify {
   display:flex;
+  flex-direction: row;
   align-content:flex-start;
   width:auto;
   height: 50px;
@@ -125,16 +142,50 @@ img  {
   height: 20px;
   width:auto;
 }
-.container6 {
+/* .container6 {
   display:flex;
   flex-direction:row;
   height: 20px;
   width: auto;
-  padding:none;
+  padding:none; */
+
+.social {
+  display:flex;
+  flex-direction:row;
+  justify-content: space-around;
+  /* align-content: flex-end; */
+  height: 50px;
+  width:auto;
+  padding: 10px 20px 40px 10px; 
 
 }
+.company {
+  display:flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height:60px;
+  width: auto;
+  color:#ffffff;
+  padding:10px;
 
+}
+.communities {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 80px;
+  width: auto;
+  color:#ffffff;
+  padding-top: 10 px;
+} 
+.links {
+  display:flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height:60px;
+  width: auto;
+  color:#ffffff;
+  padding:10px;
 
- 
-  
+}  
 

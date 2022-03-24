@@ -25,16 +25,20 @@ background-color:rgb(41, 65,171);
     background-color: #1ed760;
     border-radius: 0  300px 0 0;
   }
-/* #navbar {
+  #navbar {
     background-color: black;
     height: 80px;
     width: 100%;
     padding: 0px;
     margin: 0px;
 }
+ul #navbar {
+  
+}
 #navbar ul li {
     display:inline;
-} */
+} 
+
 h1 {
   font-style: normal;
   font-size: 35px;

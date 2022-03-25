@@ -45,7 +45,7 @@ background-color:rgb(41, 65,171);
   flex-direction: row;
   
 }
-#navbar ul {
+#navbar li {
   display:flex;
   flex-direction: row;
   align-items: flex-end;
@@ -121,7 +121,7 @@ button {
   position: fixed;
   display:flex;
   flex-direction: row;
-  /* display:inline; */
+  display:inline; 
   justify-content: space-around;
   align-content: flex-start;
   left: 0;
@@ -132,7 +132,7 @@ button {
   color: white;
    text-align: center; 
 }  
-#footer.container {
+#footer-container {
   display:inline;
   display:flex;
   flex-direction: row;
@@ -140,6 +140,8 @@ button {
   justify-content: center;
   width: 100%;
   height:100px;
+  background-color: black;
+  color: #ffffff;
 }
 
 .spotify {
@@ -155,18 +157,22 @@ img  {
   height: 20px;
   width:auto;
 }
-/* .container6 {
+ .footer-container {
   display:flex;
   flex-direction:row;
-  height: 20px;
+  height: 300px;
   width: auto;
-  padding:none; */
+  padding:none;
+  background-color: black;
+  padding: 0;
+}  
 
 .social {
   display:flex;
   flex-direction:row;
+  justify-content: flex-end;
   display:inline; 
-  /* justify-content: space-around; */
+ justify-content: space-around; 
   /* align-content: flex-end; */
   height: 20px;
   width:auto;
@@ -178,7 +184,7 @@ img  {
   flex-direction: column; 
   justify-content: space-around;
   height:60px;
-  width: 20%;
+  width: auto;
   color:#ffffff;
   padding:30 px 0 0 0;
 
@@ -188,7 +194,7 @@ img  {
   flex-direction: column;
   justify-content: space-around;
   height: 80px;
-  width: 20%;
+  width: auto;
   color:#ffffff;
   padding-top: 30 px;
 } 
@@ -197,7 +203,7 @@ img  {
   flex-direction: column; 
   justify-content: space-around;
   height:60px;
-  width: 20%;
+  width: auto;
   color:#ffffff;
   padding:30px;
 

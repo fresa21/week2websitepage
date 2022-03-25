@@ -1,6 +1,14 @@
 body {
 background-color:rgb(41, 65,171);
 }
+ul {
+  list-style: none;
+  list-style-position: inside;
+}
+li {
+  list-style: none;
+  list-style-position: inside
+}
 
 .circleBase {
     border-radius: 50%;
@@ -43,14 +51,18 @@ background-color:rgb(41, 65,171);
 #navbar ul {
   display:flex;
   flex-direction: row;
-  
+  justify-content:flex-end;
+  list-style-position: inside
 }
 #navbar li {
   display:flex;
   flex-direction: row;
   align-items: flex-end;
+  list-style-position: inside
 }
-
+#navbar .right {
+  list-style-position: inside
+}
 .right {
   display:flex;
   flex-direction: row;
@@ -118,7 +130,7 @@ button {
   padding: 60px;
 }
 #footer { 
-  position: fixed;
+  position: absolute;
   display:flex;
   flex-direction: row;
   display:inline; 
@@ -142,13 +154,15 @@ button {
   height:100px;
   background-color: black;
   color: #ffffff;
+  position:absolute;
+  bottom:0;
 }
 
 .spotify {
   display:flex;
    flex-direction: row; 
   /* align-content:flex-start; */
-  justify-content: space-around;
+  justify-content: flex-start;
   width:20%;
   height: 50px;
   padding: 30px 0 0 0;
@@ -158,14 +172,24 @@ img  {
   width:auto;
 }
  .footer-container {
-  display:flex;
-  flex-direction:row;
-  height: 300px;
-  width: auto;
-  padding:none;
-  background-color: black;
-  padding: 0;
+  
+   display :flex;
+   flex-direction:row;
+   height: 300px;
+   width: auto;
+   padding:none;
+   background-color: black;
+   padding: 0;
+   position: absolute;
+   bottom:0
 }  
+.social img {
+  display:flex;
+  justify-content: flex-end;
+  flex-direction: row;
+
+}
+
 
 .social {
   display:flex;

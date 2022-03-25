@@ -35,7 +35,7 @@ li {
   }
   #navbar {
     background-color: black;
-    height: 80px;
+    height: 140px;
     width: 100%;
     padding: 0px;
     margin: 0px;
@@ -129,14 +129,14 @@ button {
   align-items: center;
   padding: 60px;
 }
- #bottom-container { 
-  /* position: relative; */
-  display:flex;
+ .footer { 
+   /* position: relative;  */
+   display:flex;
   flex-direction: row;
   display:inline; 
   justify-content: space-around;
   align-content: flex-start;
-  left: 0;
+  left: 0; 
   bottom: 0;
   width: 100%;
   height:100px;
@@ -144,9 +144,9 @@ button {
   color: white;
    text-align: center; 
   
-}   
-#bottom-container {
-  display:inline;
+}    
+footer {
+  display: inline-flex;
   display:flex;
   flex-direction: row;
   flex-wrap:nowrap;
@@ -156,97 +156,107 @@ button {
   height:300px;
   background-color: black;
   color: #ffffff;
-  /* position:relative; */
-  bottom:0;
+  position:relative; 
+   bottom:0;
   
-}
+}  
 
-#bottom-container ul{
+ footer img ul{
   list-style-type: none;
   display:flex;
   flex-direction: row;
   justify-content: flex-start;
+  justify-content: space-between;
+  padding-top: 50px 10px 20px 10px;
+  width:fit-content;
 }
-#bottom-container ul a {
-  width: 200px;
-}
-
-#bottom-container li {
-  float: left;
-}
-.spotify {
+/* footer ul a { */
+  /* width: 200px; */
+/* } */
+footer li {
+  display: flex;
+  flex-direction: column;
+} 
+ /* footer {
+  float: left; */
+/* }  */
+ .spotify {
   display:flex;
   flex-direction: row; 
   flex-wrap:nowrap;
   justify-content: flex-start;
   justify-content: space-around;
-  width:20%;
-  height: 50px;
+  width:auto; 
+  height: 80px;
   padding: 30px 0 0 0;
-}
-/* img  { 
+} 
+ img  { 
   height: 20px;
   width:auto; 
-} */
+} 
+
+
+
  
   
-.social img {
+ .social img {
   display:flex;
-  justify-content: flex-end;
+  justify-content: space-evenly;
   flex-direction: row;
 
 }
 
 
-.social {
+.social { 
   display:flex;
   flex-direction: row;  
   flex-wrap:nowrap;
   justify-content: flex-start;
   justify-content: space-around;
-  width:20%;
-  /* align-content: flex-end; */
-  height: 20px;
-  width:auto;
+  width:auto; 
+   /* align-content: flex-end; */
+   height: 20px;
+  
   padding: 10px 20px 40px 10px; 
 
 }
-.company {
-  display:flex;
+.company { 
+   display:flex;
   flex-direction:column;  
   flex-wrap:nowrap;
   justify-content: flex-start;
   justify-content: space-around;
-  width:20%;
-  height:60px;
+  width: auto; 
+   height:60px;
   width: auto;
   color:#ffffff;
   padding:30 px 0 0 0;
 
 }
 .communities {
-  display:flex;
+   display:flex;
   flex-direction: column; 
   flex-wrap:nowrap;
   justify-content: flex-start;
   justify-content: space-around;
-  width:20%;
+  width:auto;
   height: 80px;
   width: auto;
   color:#ffffff;
   padding-top: 30 px;
 } 
-.links {
+.links { 
   display:flex;
   flex-direction: column; 
   flex-wrap:nowrap;
   justify-content: flex-start;
   justify-content: space-around;
-  width:20%;
-  height:60px;
+  width:auto; 
+   height:60px;
   width: auto;
   color:#ffffff;
   padding:30px;
 
-}  
+}    
+
 
